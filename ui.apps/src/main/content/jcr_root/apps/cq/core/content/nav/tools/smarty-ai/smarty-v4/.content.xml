@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="This is Smart AI-Powered Tool Integrated in AEM"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Smarty V4.0"
+    href="/apps/rocket/smart-ai/smartyV4.0.html"
+    icon="project"
+    id="ai-powered-tool-v4"/>

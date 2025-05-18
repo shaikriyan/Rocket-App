@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/rocket" mode="merge"/>
+    <filter root="/content/rocket" mode="merge"/>
+    <filter root="/content/dam/rocket" mode="merge">
+        <exclude pattern="/content/dam/rocket(/.*)?"/>
+        <include pattern="/content/dam/rocket/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/rocket/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/rocket" mode="merge"/>
+</workspaceFilter>

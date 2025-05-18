@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/rocket",
+        "create path (nt:unstructured) /content/dam/rocket/jcr:content",
+        "set properties on /content/dam/rocket/jcr:content\n  set cq:conf{String} to /conf/rocket\n  set jcr:title{String} to \"My Rocket App\"\nend"
+    ]
+}

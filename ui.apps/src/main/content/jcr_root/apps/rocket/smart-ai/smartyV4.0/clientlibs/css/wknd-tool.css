@@ -1,0 +1,64 @@
+/* Add some spacing and alignment */
+.foundation-layout-util-vmargin {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Style the Well container */
+.coral-Well {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: var(--coral-gray-100); /* Light background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds spacing between child elements */
+}
+
+/* Heading styles */
+.coral-Heading--2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--coral-gray-900);
+    margin-bottom: 10px;
+}
+
+/* Textarea improvements */
+.coral3-Textfield--multiline {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: var(--coral-gray-50);
+    transition: all 0.3s ease;
+    margin-bottom: 10px; /* Added spacing below textarea */
+}
+
+.coral3-Textfield--multiline:focus {
+    border-color: var(--coral-blue-500);
+    box-shadow: 0 0 5px var(--coral-blue-300);
+    outline: gray;
+}
+
+/* Button styles */
+.coral3-Button {
+    font-size: 1rem;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    margin-top: 10px; /* Added spacing above the button */
+}
+
+/* .coral3-Button--primary {
+    background-color: var(--coral-blue-500);
+    border-color: var(--coral-blue-500);
+    color: blue;
+} */
+
+/* .coral3-Button--primary:hover {
+    background-color: var(--coral-blue-600);
+    border-color: var(--coral-blue-600);
+    color: white;
+} */
